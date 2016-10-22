@@ -1,0 +1,166 @@
+2016-01-06 00:35:03,173 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:infrastructure:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/pom.xml.
+2016-01-06 00:35:04,670 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:04,671 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/main/resources
+2016-01-06 00:35:04,674 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:04,675 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/test/resources
+2016-01-06 00:35:05,153 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-app-server:0.0.1-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/pom.xml.
+2016-01-06 00:35:05,426 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for eric.clapton:musician-service:jar:1.0.0-SNAPSHOT is missing, no dependency information available
+2016-01-06 00:35:05,740 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:05,752 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2016-01-06 00:35:05,783 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:05,783 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/src/test/resources
+2016-01-06 00:35:05,850 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-core:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/pom.xml.
+2016-01-06 00:35:06,219 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:06,220 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/main/resources
+2016-01-06 00:35:06,225 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:06,226 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/test/resources
+2016-01-06 00:35:06,311 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-repository:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/pom.xml.
+2016-01-06 00:35:06,733 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:06,734 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/main/resources
+2016-01-06 00:35:06,735 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:06,736 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/test/resources
+2016-01-06 00:35:06,807 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-service:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/pom.xml.
+2016-01-06 00:35:07,176 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-app-server:0.0.1-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/pom.xml.
+2016-01-06 00:35:07,537 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:07,538 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/src/main/resources
+2016-01-06 00:35:07,539 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:07,540 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-01-06 00:35:08,785 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:infrastructure:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/pom.xml.
+2016-01-06 00:35:09,045 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-app-server:0.0.1-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/pom.xml.
+2016-01-06 00:35:09,908 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-core:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/pom.xml.
+2016-01-06 00:35:09,936 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:09,939 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:35:09,942 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:09,943 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/src/test/resources
+2016-01-06 00:35:09,985 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-repository:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/pom.xml.
+2016-01-06 00:35:10,026 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-service:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/pom.xml.
+2016-01-06 00:35:11,380 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:11,381 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/main/resources
+2016-01-06 00:35:11,416 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:11,417 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/test/resources
+2016-01-06 00:35:11,921 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:11,922 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/main/resources
+2016-01-06 00:35:11,924 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:11,924 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/test/resources
+2016-01-06 00:35:12,092 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:12,093 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/main/resources
+2016-01-06 00:35:12,095 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:12,095 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/test/resources
+2016-01-06 00:35:12,313 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:12,314 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/src/main/resources
+2016-01-06 00:35:12,315 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:12,316 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:35:12,647 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:12,648 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:35:12,649 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:35:12,649 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/src/test/resources
+2016-01-06 00:38:13,848 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:38:13,850 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:38:13,853 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:38:13,854 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:38:57,003 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-01-06 00:38:57,306 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:infrastructure:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/pom.xml.
+2016-01-06 00:38:57,531 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-app-server:0.0.1-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/pom.xml.
+2016-01-06 00:38:57,790 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-core:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/pom.xml.
+2016-01-06 00:38:57,838 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-repository:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/pom.xml.
+2016-01-06 00:38:57,876 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-service:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/pom.xml.
+2016-01-06 00:38:58,147 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /infrastructure/src/main/java
+2016-01-06 00:38:58,148 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /infrastructure/src/test/java
+2016-01-06 00:38:58,212 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-app-server/src/main/java
+2016-01-06 00:38:58,212 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /musician-app-server/src/main/resources
+2016-01-06 00:38:58,213 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-app-server/src/test/java
+2016-01-06 00:38:58,213 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /musician-app-server/src/test/resources
+2016-01-06 00:38:58,281 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-core/src/main/java
+2016-01-06 00:38:58,282 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-core/src/test/java
+2016-01-06 00:38:58,319 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-repository/src/main/java
+2016-01-06 00:38:58,319 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-repository/src/test/java
+2016-01-06 00:38:58,363 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-service/src/main/java
+2016-01-06 00:38:58,363 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-service/src/test/java
+2016-01-06 00:38:58,363 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /musician-service/src/test/resources
+2016-01-06 00:38:58,616 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2016-01-06 00:38:59,851 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:38:59,851 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/main/resources
+2016-01-06 00:38:59,853 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:38:59,854 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/test/resources
+2016-01-06 00:39:00,107 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:00,108 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/main/resources
+2016-01-06 00:39:00,109 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:00,110 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/test/resources
+2016-01-06 00:39:00,280 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:00,280 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/main/resources
+2016-01-06 00:39:00,282 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:00,289 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/test/resources
+2016-01-06 00:39:00,620 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:00,620 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/src/main/resources
+2016-01-06 00:39:00,622 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:00,630 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-01-06 00:39:01,134 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:01,135 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2016-01-06 00:39:01,151 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:39:01,152 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:39:25,847 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-01-06 00:49:56,375 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:49:56,382 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/main/resources
+2016-01-06 00:49:56,387 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:49:56,388 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/test/resources
+2016-01-06 00:50:31,963 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-01-06 00:51:46,446 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:51:46,486 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2016-01-06 00:51:46,507 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:51:46,508 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:55:46,688 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:55:46,691 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/main/resources
+2016-01-06 00:55:46,693 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:55:46,694 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/test/resources
+2016-01-06 00:55:46,810 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:55:46,816 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2016-01-06 00:55:46,818 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:55:46,819 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:56:08,929 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-01-06 00:56:09,585 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:infrastructure:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/pom.xml.
+2016-01-06 00:56:09,974 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-app-server:0.0.1-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-app-server/pom.xml.
+2016-01-06 00:56:10,331 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-core:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/pom.xml.
+2016-01-06 00:56:10,389 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-repository:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/pom.xml.
+2016-01-06 00:56:10,427 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eric.clapton:musician-service:1.0.0-SNAPSHOT @ /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/pom.xml.
+2016-01-06 00:56:10,951 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /infrastructure/src/main/java
+2016-01-06 00:56:10,951 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /infrastructure/src/test/java
+2016-01-06 00:56:11,004 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-app-server/src/main/java
+2016-01-06 00:56:11,005 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /musician-app-server/src/main/resources
+2016-01-06 00:56:11,006 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-app-server/src/test/java
+2016-01-06 00:56:11,006 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /musician-app-server/src/test/resources
+2016-01-06 00:56:11,084 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-core/src/main/java
+2016-01-06 00:56:11,084 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-core/src/test/java
+2016-01-06 00:56:11,127 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-repository/src/main/java
+2016-01-06 00:56:11,127 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-repository/src/test/java
+2016-01-06 00:56:11,173 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-service/src/main/java
+2016-01-06 00:56:11,173 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /musician-service/src/test/java
+2016-01-06 00:56:11,173 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /musician-service/src/test/resources
+2016-01-06 00:56:11,524 [Worker-15] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2016-01-06 00:56:13,098 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:13,099 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/main/resources
+2016-01-06 00:56:13,101 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:13,102 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/infrastructure/src/test/resources
+2016-01-06 00:56:13,496 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:13,497 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/main/resources
+2016-01-06 00:56:13,498 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:13,499 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/test/resources
+2016-01-06 00:56:13,772 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:13,772 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/main/resources
+2016-01-06 00:56:13,773 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:13,774 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-repository/src/test/resources
+2016-01-06 00:56:14,189 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:14,190 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-service/src/main/resources
+2016-01-06 00:56:14,191 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:14,198 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2016-01-06 00:56:14,850 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:14,852 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2016-01-06 00:56:14,892 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:14,893 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-01-06 00:56:55,056 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:55,057 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/main/resources
+2016-01-06 00:56:55,058 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 00:56:55,059 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/chengpoleness/Documents/code/musicianShare/java/musician_share_clapton/musician-core/src/test/resources
+2016-01-06 01:03:52,932 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 01:03:52,937 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 11 resources
+2016-01-06 01:03:52,939 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-01-06 01:03:52,939 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

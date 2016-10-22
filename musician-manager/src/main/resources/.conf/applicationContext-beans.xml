@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:task="http://www.springframework.org/schema/task"  
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-3.2.xsd ">
+  
+  <task:annotation-driven/>
+  <context:component-scan base-package="com.wuzhut"></context:component-scan> 
+  
+  <description>导入applicationContext文件列表</description>
+  <bean name="simplePlainTextCaptchaGenerator" class="eric.clapton.musician.service.security.impl.SimplePlainTextCaptchaGeneratorFactoryBean" />
+  <bean id="webClient" class="eric.clapton.infrastructure.util.net.WebClientImpl"></bean>
+  <bean class="eric.clapton.musician.service.sms.provider.yuntongxun.YuntongxunSmsProvider">
+    <property name="accountSid" value="8a48b55151906d030151951d54c6050a" />
+    <property name="appId" value="8a48b55151906d030151955559fc055f" />
+    <property name="authToken" value="c7450e2c62554f8da505b29c42c03245" />
+    <property name="baseUrl" value="https://sandboxapp.cloopen.com:8883/" />
+    <property name="webClient" ref="webClient" />
+  </bean>
+  <bean class="eric.clapton.musician.util.ShiroSubjectUtils" />
+  
+	<!-- json支持 -->
+  <bean id="objectMapper" class="com.fasterxml.jackson.databind.ObjectMapper">
+  </bean>
+  
+  <!-- 七牛云 -->
+  <bean id="imageProvider"  class="eric.clapton.musician.service.image.provider.seven.SevenImageProvider">
+    <property name="accessKey" value="7Nuf3gmXfqHDC0pNW2JyW3nhugarj5iLD1ppwdZr" />
+    <property name="secretKey" value="RpRAoSUg8Kb9wAICOXD6-lnwUd2bmGHkcy0Zox3W" />
+  </bean>
+  
+  <!-- 加解密 -->
+   <bean id="decryProvider"  class="eric.clapton.musician.service.image.provider.decrypt.DecryptEncryptProvider">
+  </bean>
+  
+</beans>

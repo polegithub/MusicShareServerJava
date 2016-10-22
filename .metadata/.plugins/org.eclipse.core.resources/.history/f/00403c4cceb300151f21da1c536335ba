@@ -1,0 +1,156 @@
+package eric.clapton.musician.web.controller.order;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.List;
+import java.util.Locale;
+
+import javax.annotation.Resource;
+
+//import org.springframework.data.domain.Page;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import eric.clapton.infrastructure.util.StringUtils;
+import eric.clapton.musician.core.entity.dto.ApiResponse;
+import eric.clapton.musician.core.entity.dto.BasePageResponse;
+import eric.clapton.musician.core.entity.dto.account.AccountInfo;
+import eric.clapton.musician.core.entity.dto.order.OrderEntryInfo;
+import eric.clapton.musician.core.entity.dto.geolocation.Geoposition;
+import eric.clapton.musician.core.entity.dto.performance.SellerPerformanceRequest;
+//import eric.clapton.musician.core.entity.po.account.Account;
+import eric.clapton.musician.core.entity.po.order.*;
+import eric.clapton.musician.util.CurrentUser;
+import eric.clapton.musician.web.controller.ApiControllerSupport;
+
+@Controller
+@RequestMapping("/my/order")
+@ResponseBody
+public class MyOrderController extends ApiControllerSupport {
+	@Resource
+
+	@RequestMapping("/list")
+	public ApiResponse searchAll(@RequestBody() SellerPerformanceRequest r) {
+		AccountInfo account = CurrentUser.getAccountInfo();
+		Long accountId = account.getId();
+
+//		PublishedPerformancesSearchParams searchParams = new PublishedPerformancesSearchParams(accountId);
+//		searchParams.setPageCountDisabled(r.isNoCount());
+
+//		Page<Performance> page = performanceService.findPublishedPerformances(searchParams, r.getPageable());
+
+		List<OrderEntryInfo> performances = new ArrayList<OrderEntryInfo>();
+
+//		for (Performance p : page) {
+			OrderPO p = new OrderPO();
+			OrderEntryInfo pi = new OrderEntryInfo();
+			pi.setCreated(p.getCreated());
+
+			String date;
+			String dateFrom = toShortDateString(p.getDateFrom());
+			String dateTo = toShortDateString(p.getDateTo());
+
+			if (dateFrom.equals(dateTo)) {
+				date = dateFrom;
+			} else {
+				date = String.format(Locale.CHINA, "%s 至 %s", dateFrom, dateTo);
+			}
+			pi.setDate(date);
+
+			pi.setPosition(new Geoposition(p.getLatitude(), p.getLongitude(), p.getAddress(), p.getDetailAddress()));
+			pi.setId(p.getId());
+			pi.setName(p.getName());
+			pi.setPublisher(p.getPublisher().getNickName());
+			pi.setStyles(p.getTags().stream().map(t -> t.getTag()).toArray(String[]::new));
+
+			pi.setSummary(StringUtils.truncate(p.getDescription(), 100));
+
+			performances.add(pi);
+//		}
+
+		BasePageResponse response = new BasePageResponse(2, 10, 3,
+				performances);
+
+		return ApiResponse.succeed(response);
+	}
+
+
+
+	@RequestMapping("/new")
+	public ApiResponse create(@RequestBody() OrderEntryInfo i) {
+//		AddressBookEntry e = new AddressBookEntry();
+//		e.setAddress(i.getAddress());
+//		e.setCity(i.getCity());
+//		e.setContact(i.getContact());
+//		e.setCreated(Calendar.getInstance());
+//		e.setDetailAddress(i.getDetailAddress());
+//		e.setDisplayOrder(1);
+//		e.setLatitude(i.getLatitude());
+//		e.setLongitude(i.getLongitude());
+//		e.setName(i.getName());
+//		e.setOwner(CurrentUser.getAccount());
+//		e.setRemarks(i.getRemarks());
+//		e.setTelephoneNumbersAsArray(i.getTelephoneNumbers());
+//
+//		addressBookService.save(e);
+
+		return ApiResponse.succeed();
+	}
+
+	@RequestMapping("/update")
+	public ApiResponse update(@RequestBody() OrderEntryInfo i) {
+//		AddressBookEntry e = getAddressBookEntryForCurrentUser(i.getId());
+//		if (e == null) {
+//			return ApiResponse.fail("-10007", "找不到要修改的地址，它可能已被删除。");
+//		}
+//
+//		e.setAddress(i.getAddress());
+//		e.setCity(i.getCity());
+//		e.setContact(i.getContact());
+//		e.setCreated(Calendar.getInstance());
+//		e.setDetailAddress(i.getDetailAddress());
+//		e.setDisplayOrder(1);
+//		e.setLatitude(i.getLatitude());
+//		e.setLongitude(i.getLongitude());
+//		e.setName(i.getName());
+//		e.setRemarks(i.getRemarks());
+//		e.setTelephoneNumbersAsArray(i.getTelephoneNumbers());
+//
+//		e = addressBookService.save(e);
+
+		return ApiResponse.succeed();
+	}
+
+	@RequestMapping("/destroy")
+	public ApiResponse destroy(@RequestBody() Long id) {
+//		AddressBookEntry e = getAddressBookEntryForCurrentUser(id);
+//		if (e == null) {
+//			return ApiResponse.fail("-10007", "找不到要修改的地址，它可能已被删除。");
+//		}
+//
+//		addressBookService.delete(e);
+
+		return ApiResponse.succeed();
+	}
+
+//	private AddressBookEntry getAddressBookEntryForCurrentUser(Long id) {
+//		AddressBookEntry e = addressBookService.findOne(id);
+//		if (e != null) {
+//			if (!e.getOwner().getId().equals(CurrentUser.getAccountId())) {
+//				e = null;
+//			}
+//		}
+//		return e;
+//	}
+	
+	
+	private static String toShortDateString(Calendar c) {
+		if (c == null) {
+			return "";
+		}
+		return new SimpleDateFormat("yyyy-MM-dd", Locale.CHINA).format(c.getTime());
+	}
+}

@@ -1,0 +1,3 @@
+char c = (char)0x4E37;
+System.out.println(String.format(java.util.Locale.CHINA,
+                            "无法检索字符“%s”（0x%x）的汉语拼音。", c, (int)c));

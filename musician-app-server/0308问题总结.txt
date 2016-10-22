@@ -1,0 +1,201 @@
+普通订单
+1.0
+	商家根据音乐人姓名查询抢购订单列表 uri ${base_path}/mOrder/merchant/searchByName
+	
+	请求报文
+			{
+			"pageIndex":"1",
+			"key":"1",
+			"timeid":"1",
+			"orderid":"1",
+			"accountid":"100001"
+		}
+		
+2.0
+	商家取消订单 uri ${base_path}/mOrder/merchant/cancel
+	
+	请求报文
+			{
+			"timeid":"1",
+			"orderid":"1",
+			"accountid":"100001"
+		}
+
+3.0
+	商家不感兴趣音乐人 uri ${base_path}/mOrder/merchant/unintereste
+	
+	请求报文
+			{
+			"timeid":"1",
+			"orderid":"1",
+			"userid":"1",
+			"accountid":"100001"
+		}
+
+修正相关订单列表，增加返回海报列表
+
+
+驻场订单
+1.0
+	商家发布订单 uri ${base_path}/fOrder/merchant/create
+	
+	请求报文
+		{"title":"张江会所开张表演",
+		"description":"张江会所开张表演，需要20-50人的乐队表演",
+		"accountid":"1000000",
+		"addressid":"9",
+		"price":"100.21",
+		"starttime":"1456580613",
+		"endtime":"1456580613",
+		"needcount":"5",
+		"deadline":"1456590613",
+		"styles":[
+				{
+					"type":"4"
+					},
+				{
+					"type":"2"
+					}
+		 ]
+		}
+		
+2.0
+	音乐人可抢订单列表 uri ${base_path}/fOrder/music/aviabled
+	
+	请求报文
+		{
+			"pageIndex":"1",
+			"accountid":"100001"
+		}
+		
+3.0
+	音乐人抢单 uri ${base_path}/fOrder/music/grab
+	
+	请求报文
+		{
+			"pageIndex":"1",
+			"accountid":"100001"
+		}
+		
+4.0
+	商家查看已抢订单列表 uri ${base_path}/fOrder/merchant/grabList
+	
+	请求报文
+		{
+			"accountid":"1000000",
+			"pageIndex":"1",
+			"orderid":"20160000000"
+		}
+
+
+5.0
+	商家帅选订单 uri ${base_path}/fOrder/merchant/agree
+	
+	请求报文
+		{
+			"accountid":1000000,
+			"userid":1000001,
+			"orderid":2016000016
+		}
+		
+6.0
+	商家今日统计 uri ${base_path}/fOrder/merchant/total
+	
+	请求报文
+		{
+			"accountid":1000000
+		}
+		
+		
+7.0
+	音乐人今日统计 uri ${base_path}/fOrder/music/total
+	
+	请求报文
+		{
+			"accountid":1000000
+		}
+		
+8.0
+	商家流水 uri ${base_path}/fOrder/merchant/flowno
+	
+	请求报文
+		{
+			"accountid":1000000,
+			"pageIndex":"1"
+			
+		}
+
+9.0
+	音乐人流水 uri ${base_path}/fOrder/music/flowno
+	
+	请求报文
+		{
+			"accountid":1000000,
+			"pageIndex":"1"
+		}
+			
+10.0
+	商家订单列表 uri ${base_path}/fOrder/merchant/list
+	
+	请求报文
+		{
+		"accountid":1000000,
+		"pageIndex":"1",
+		"state":"3"
+		}
+	
+11.0
+	音乐人订单列表 uri ${base_path}/fOrder/music/list
+	
+	请求报文
+		{
+		"accountid":1000000,
+		"pageIndex":"1",
+		"state":"3"
+		}
+		
+		
+12.0
+	商家订单修改 uri ${base_path}/fOrder/merchant/update
+	
+	请求报文
+		{"orderid":"1000000001",
+		"title":"张江会所开张表演",
+		"description":"张江会所开张表演，需要20-50人的乐队表演",
+		"accountid":"1000000",
+		"addressid":"9",
+		"price":"100.21",
+		"starttime":"1456580613",
+		"endtime":"1456580613",
+		"needcount":"5",
+		"deadline":"1456590613",
+		"styles":[
+				{
+					"type":"4"
+					},
+				{
+					"type":"2"
+					}
+		 ]
+}
+
+
+13.0
+	商家删除订单 uri ${base_path}/fOrder/merchant/delete
+	
+	请求报文
+		{
+		"accountid":1000000,
+		"orderid":"3"
+		}
+
+
+14.0
+	商家订单详情 uri ${base_path}/fOrder/merchant/detail
+	
+	请求报文
+		{
+		"accountid":1000000,
+		"orderid":"3"
+		}
+

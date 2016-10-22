@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+  <description>shiro</description>
+  <bean id="musicianAppRealm" class="eric.clapton.musician.web.shiro.MusicianAppRealm">
+
+  </bean>
+  <bean id="musicianAppSessionManager" class="eric.clapton.musician.web.shiro.MusicianAppSessionManager">
+    <!--  <property name="sessionIdResponseHeaderEnabled" value="true" />
+    <property name="sessionIdHeaderName" value="MS-Session-Id" /> -->
+    <property name="globalSessionTimeout" value="2592000000" /> <!-- 30 天 session 过期 -->
+  </bean>
+  
+  <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+    <property name="realm" ref="musicianAppRealm" />
+    <property name="sessionManager" ref="musicianAppSessionManager" />
+  </bean>
+  
+  <!-- Web 过滤器 -->
+  <bean id="musicianAppAuthenticationFilter" class="eric.clapton.musician.web.shiro.MusicianAppAuthenticationFilter"></bean>
+  <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+    <property name="securityManager" ref="securityManager" />
+    <property name="loginUrl" value="/account/signIn" />
+    <property name="filters">
+      <map>
+        <entry key="musician" value-ref="musicianAppAuthenticationFilter" />
+      </map>
+    </property>
+     <property name="filterChainDefinitions">
+      <value>
+        /public = anon
+        /test = anon
+        /account/captcha = anon
+        /account/signIn = musician
+        /** = anon
+      </value>
+    </property>
+    <!--  
+    <property name="filterChainDefinitionMap">
+       <map>
+          <entry key="/public" value="anon" />
+          <entry key="/mOrder/*" value="anon" />
+          <entry key="/home/*" value="anon" />
+          <entry key="/account/captcha" value="anon" />
+          <entry key="/account/signIn" value="musician" />
+          <entry key="/**" value="musician" />
+      </map>
+    </property>
+    -->
+  </bean>
+</beans>
