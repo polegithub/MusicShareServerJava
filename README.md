@@ -1,5 +1,5 @@
 # MusicShareServerJava
-Server client for polegithub/MusicShareSwift 
+MusicShareSwift项目的Server端代码
 
 # Code by Java
 
